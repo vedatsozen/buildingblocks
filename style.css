@@ -52,7 +52,7 @@ color:#E7E247;
 margin: auto;
 margin-top:150px;
 font-size: 80px;
-letter-spacing: 5px;
+letter-spacing: 10px;
 display: block;
 height: 100px;
 width:fit-content;
@@ -60,6 +60,7 @@ background-color: #3D3B30;
 padding: 10px;
 box-shadow: 0 0 80px #3D3B30;
 border-radius: 3px;
+
 
 }
 
@@ -142,5 +143,10 @@ a.footer:hover {
 text-decoration: underline;
 }
 
-
+#h3interactive.bgdarkred {
+    background-color:#3D3B30;
+    color: #E7E247;
+ 
+   
+}
 
