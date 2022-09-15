@@ -20,8 +20,19 @@
     
     </ul>
 </div>
+
+<div id="container">
+
+<div id="left">
 <h1 class="build">Let'us Build Blocks</h1>
 <h3 id="h3interactive" class="build">We create interactive websites for you</h3>
+</div>
+
+<div id="right">
+<img class="home" src="images/home.png">
+</div>
+
+</div>
 
 <div class="sections" id="docs">
     <h1 class="sectionh1">Documentations</h1>
@@ -31,13 +42,13 @@
 
 <div class="sections" id="learn">
     <h1 class="sectionh1">Learn</h1>
-    <img src="images/learn.png">
+    <img class="imgs" src="images/learn.png">
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In viverra eros sed ornare luctus. Mauris mauris enim, dapibus id metus nec, aliquet scelerisque sem. Aenean sed mauris ullamcorper, auctor lectus ut, rutrum tortor. Maecenas id bibendum magna, ut imperdiet urna. Aliquam elit nisl, facilisis sed luctus nec, molestie ut ante. Aliquam tincidunt leo diam, quis convallis dui viverra id. Sed eget nibh at leo maximus tincidunt eget vel justo. Donec imperdiet eu lorem id vulputate. In in tortor congue, sollicitudin urna non, vestibulum nibh. Nam ultrices tincidunt ultricies. Vivamus in mauris in ipsum lacinia eleifend. Integer vestibulum magna sit amet tristique accumsan. Aenean id vestibulum urna. Vivamus non iaculis lacus. Quisque posuere dapibus dignissim. Duis gravida, ante vitae lobortis porttitor, augue eros pulvinar nibh, vel congue nulla felis bibendum augue.</p>  
 </div>
 
 <div class="sections" id="payments">
     <h1 class="sectionh1">Payments</h1>
-    <img src="images/payments.png">
+    <img class="imgs" src="images/payments.png">
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In viverra eros sed ornare luctus. Mauris mauris enim, dapibus id metus nec, aliquet scelerisque sem. Aenean sed mauris ullamcorper, auctor lectus ut, rutrum tortor. Maecenas id bibendum magna, ut imperdiet urna. Aliquam elit nisl, facilisis sed luctus nec, molestie ut ante. Aliquam tincidunt leo diam, quis convallis dui viverra id. Sed eget nibh at leo maximus tincidunt eget vel justo. Donec imperdiet eu lorem id vulputate. In in tortor congue, sollicitudin urna non, vestibulum nibh. Nam ultrices tincidunt ultricies. Vivamus in mauris in ipsum lacinia eleifend. Integer vestibulum magna sit amet tristique accumsan. Aenean id vestibulum urna. Vivamus non iaculis lacus. Quisque posuere dapibus dignissim. Duis gravida, ante vitae lobortis porttitor, augue eros pulvinar nibh, vel congue nulla felis bibendum augue.</p>  
 </div>
 
@@ -49,7 +60,8 @@
 
 <div class="sections" id="footer">
 
-    <a class="footer" href="#documentation">Documentations</a>
+    <a class="footer" href="#">Home</a>
+    <a class="footer" href="#docs">Documentations</a>
     <a class="footer" href="#learn">Learn</a>
     <a class="footer" href="#payments">Payments</a>
     <a class="footer" href="#contact">Contact</a>
@@ -70,6 +82,21 @@ function fadeinfadeout() {
 
 document.getElementById("h3interactive").classList.toggle("bgdarkred");
 
+
+}
+
+
+
+setInterval(imgfunc,500)
+
+
+function imgfunc() {
+
+const imgs = document.getElementsByClassName("imgs")
+
+for ( let img of imgs) {
+    img.classList.add("scalemeup");
+}
 
 }
 
