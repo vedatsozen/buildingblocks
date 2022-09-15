@@ -1,0 +1,146 @@
+html {
+    user-select: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #E7E247;
+    font-family: 'Cabinet Grotesk', sans-serif;
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:15px;
+}
+
+#menu > ul > li {
+   
+    display: inline-block;
+
+}
+
+#menu > ul > li > a {
+    font-size: 18px;
+    color: #3D3B30;
+    text-decoration: none;
+    padding: 5px;
+}
+
+#menu > ul > li > a:hover {
+    font-size: 18px;
+    color: #3D3B30;
+    background-color: #3D3B30;
+    color: #E7E247;
+    padding: 5px;
+    border-radius: 3px;
+    text-decoration: none;
+    transition: 400ms ease-in-out;
+}
+
+h1.build {
+
+color:#E7E247;
+margin: auto;
+margin-top:150px;
+font-size: 80px;
+letter-spacing: 5px;
+display: block;
+height: 100px;
+width:fit-content;
+background-color: #3D3B30;
+padding: 10px;
+box-shadow: 0 0 80px #3D3B30;
+border-radius: 3px;
+
+}
+
+h3.build {
+
+ 
+    margin: auto;
+    margin-top:5px;
+    font-size:20px;
+    letter-spacing: 5px;
+    height: fit-content;
+    width:fit-content;
+    color: #3D3B30;
+    padding: 10px;
+    box-shadow: 0 0 80px #3D3B30;
+    border-radius: 3px;
+    
+    }
+
+    div.sections {
+        height:600px;
+        margin: auto;
+        margin: 0px;
+        border-top:1px dotted #3D3B30;
+        width: 100%;
+        padding-top: 5px;
+        text-align: center;
+    }
+
+    h1.sectionh1 {
+        text-align: center;
+        font-size: 60px;
+    }
+
+    #docs {
+        margin-top:300px !important;
+    }
+
+    #footer {
+        height: fit-content !important;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+img.gotop {
+    position: fixed;
+    top:50%;
+    right: 5px;
+}
+
+div.sections > img {
+    height: 300px;
+    width: 300px;
+}
+
+p {
+    text-align: justify;
+    width: 1000px;
+    margin: auto;
+    box-shadow: 0 0 20px white;
+    padding: 10px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+p.footer {
+    width: 1000px;
+    padding: 10px;
+    box-shadow: none;
+    text-align: center;
+}
+
+a.footer {
+    text-decoration: none;
+    color: darkred;
+    margin-right: 10px;
+}
+
+a.footer:hover {
+text-decoration: underline;
+}
+
+
+
