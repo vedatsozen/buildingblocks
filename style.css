@@ -60,14 +60,14 @@ body {
 
 #left {
     height: 100%;
-    width: 60%;
+    width: 50%;
     justify-content: space-between;
     align-items: center;
 }
 
 #right {
     height: 100%;
-    width: 40%;
+    width: 50%;
     justify-content: space-between;
     align-items: center;
 }
@@ -76,12 +76,12 @@ h1.build {
 
 color:#E7E247;
 margin: auto;
-font-size:40px;
+font-size:60px;
 letter-spacing: 10px;
 display: block;
 height:fit-content;
 width:60%;
-width:fit-content;
+width:500px;
 background-color: #3D3B30;
 padding: 10px;
 box-shadow: 0 0 80px #3D3B30;
@@ -98,7 +98,7 @@ h3.build {
     font-size:20px;
     letter-spacing: 5px;
     height: fit-content;
-    width:fit-content;
+    width:500px;
     color: #3D3B30;
     padding: 10px;
     box-shadow: 0 0 80px #3D3B30;
